@@ -1,0 +1,49 @@
+{
+  "tables": {
+    "residents": [
+      "resident",
+      "district",
+      "eligible"
+    ],
+    "projects": [
+      "project",
+      "booklet",
+      "label",
+      "cost",
+      "access",
+      "requires",
+      "excludes",
+      "replaces",
+      "kind"
+    ],
+    "ballots": [
+      "receipt",
+      "resident",
+      "booklet",
+      "received",
+      "state",
+      "ranked",
+      "unknown"
+    ],
+    "commitments": [
+      "decision",
+      "project",
+      "received",
+      "state"
+    ]
+  },
+  "references": [
+    [
+      "ballots",
+      "resident",
+      "residents",
+      "resident"
+    ],
+    [
+      "commitments",
+      "project",
+      "projects",
+      "project"
+    ]
+  ]
+}

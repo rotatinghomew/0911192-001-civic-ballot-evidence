@@ -1,0 +1,7 @@
+resident,district,eligible
+r1,north,yes
+r2,north,yes
+r3,south,yes
+r4,south,yes
+r5,south,no
+r6,north,yes

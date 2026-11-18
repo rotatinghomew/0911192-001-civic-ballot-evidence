@@ -1,0 +1,9 @@
+project,booklet,label,cost,access,requires,excludes,replaces,kind
+ramp,v1,坡道,35,1,,,,retired
+light,v1,巷口灯,21,0,,,,retired
+seat,v1,休息座椅,20,0,,,,retired
+path,v2,通行组合,60,1,,play,ramp;light,merge
+bench,v2,街角座椅,20,0,,,seat,rename
+play,v2,微型游乐点,50,0,,path,,current
+mark,v2,入口引导标线,25,1,bench,,,current
+tree,v2,遮荫点,39,0,,,,current

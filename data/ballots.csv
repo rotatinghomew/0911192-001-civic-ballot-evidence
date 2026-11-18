@@ -1,0 +1,10 @@
+receipt,resident,booklet,received,state,ranked,unknown
+b1,r1,v1,2026-04-02T09:00:00+08:00,confirmed,ramp;seat>light,
+b2,r2,v1,2026-04-02T10:00:00+08:00,confirmed,light>seat,ramp
+b3,r3,v2,2026-04-05T09:00:00+08:00,confirmed,play>bench>mark,path;tree
+b4,r4,v2,2026-04-05T09:40:00+08:00,confirmed,tree;mark>play>path,bench
+b5,r5,v2,2026-04-06T10:00:00+08:00,confirmed,play>path;mark,bench;tree
+b6,r2,v2,2026-04-07T11:00:00+08:00,transcribed,path>bench,tree;mark;play
+b7,r6,v2,2026-04-09T11:00:00+08:00,confirmed,bench>mark;tree>path,play
+b8,r2,v2,2026-04-11T11:00:00+08:00,confirmed,mark;bench>tree>path>play,
+b9,r3,v2,2026-04-12T19:00:00+08:00,confirmed,path>bench>mark,play;tree
